@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void connect_to_database();
 };
 #endif // MAINWINDOW_H
