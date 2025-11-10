@@ -57,10 +57,10 @@
    <widget class="QTextEdit" name="output_TE">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>40</y>
+      <x>390</x>
+      <y>20</y>
       <width>211</width>
-      <height>171</height>
+      <height>41</height>
      </rect>
     </property>
    </widget>
@@ -129,27 +129,37 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="query_TE">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>190</y>
-      <width>261</width>
-      <height>111</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="queryButton">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>260</y>
+      <x>250</x>
+      <y>160</y>
       <width>80</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>Connect</string>
+     <string>Run Query</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="query_TE">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>311</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="query_TV">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>120</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
     </property>
    </widget>
   </widget>

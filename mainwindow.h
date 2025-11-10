@@ -22,5 +22,6 @@ private:
 
 private slots:
     void connect_to_database();
+    void run_query();
 };
 #endif // MAINWINDOW_H
